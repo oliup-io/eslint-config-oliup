@@ -1,0 +1,21 @@
+{
+	"name": "eslint-config-oliup",
+	"private": true,
+	"version": "1.0.0",
+	"description": "Oliup ESLint config.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oliup-io/eslint-config-oliup"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"config",
+		"javascript",
+		"styleguide"
+	]
+}
