@@ -1,7 +1,8 @@
 {
 	"env": {
 		"node": true,
-		"browser": true
+		"browser": true,
+		"es2021": true
 	},
 	"extends": "eslint:recommended",
 	"parserOptions": {
@@ -26,7 +27,13 @@
 		],
 		"comma-dangle": [
 			"error",
-			"always-multiline"
+			{
+				"arrays": "always-multiline",
+				"objects": "always-multiline",
+				"imports": "always-multiline",
+				"exports": "always-multiline",
+				"functions": "never"
+			}
 		]
 	}
 }
